@@ -1,6 +1,8 @@
 # Hide the Seam Completely
 The whitepaper describes how to completely eliminate the visible seam.
 
+(I have also already written some basic post processors for slicers. Enjoy! [repository](https://github.com/vgdh/seam-slope-postprocessor))
+
 ## Explanation
 Every closed loop will eventually have a visible seam. However, if there is no specific point where the line ends, there is no seam, right?
 1. Begin the line with a height of 0 and gradually increase the height of the nozzle and the line over some length until it reaches the full height of the line.
